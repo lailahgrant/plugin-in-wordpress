@@ -1,0 +1,34 @@
+{
+    "name": "fancyguy/www-fancyguy-com",
+    "description": "Package to build www.fancyguy.com",
+    "authors": [
+        {
+            "name": "Steve Buzonas",
+            "email": "steve@fancyguy.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "type": "webroot",
+                "version": "4.5.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://wordpress.org/wordpress-4.5.1-no-content.zip"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "^1.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wordpress/wordpress": "4.5.*"
+    },
+    "extra": {
+        "webroot-dir": "wordpress",
+        "webroot-package": "wordpress/wordpress"
+    }
+}
