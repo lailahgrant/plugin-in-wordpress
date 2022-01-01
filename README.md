@@ -10,4 +10,11 @@ Wordpress Plugin with Composer, React and OOP PHP
 
 Using [A Webroot Composer Library Installer](https://github.com/fancyguy/webroot-installer)
 
+> The last two lines copied mean the following :-
+> This would install the defined wordpress/wordpress package in the wordpress directory of the project.
 
+- Add all the `json` from the above link into `composer.json` file.
+
+- Run `composer install` 
+
+- Run `composer update` incase there's already infor in the `composer.json` file.

@@ -1,12 +1,5 @@
 {
-    "name": "fancyguy/www-fancyguy-com",
-    "description": "Package to build www.fancyguy.com",
-    "authors": [
-        {
-            "name": "Steve Buzonas",
-            "email": "steve@fancyguy.com"
-        }
-    ],
+    
     "repositories": [
         {
             "type": "package",
