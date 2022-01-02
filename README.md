@@ -51,4 +51,7 @@ Using [A Webroot Composer Library Installer](https://github.com/fancyguy/webroot
 > define( 'WP_CONTENT_DIR', dirname( __FILE__) . '/wp-content' );
 > define( 'WP_CONTENT_URL', 'HTTP://' . $_SERVER['HTTP_HOST'] . '/wp-content' );  
 
+- Set up `DB_NAME, DB_USERNAME, DB_PASS` in the `wp-config.php`
+   - If you get an `Database Error`, try creating up the database manually in your `xampp` or `localhost`....
+
 ### Files managed by the composer are put in .gitignore
