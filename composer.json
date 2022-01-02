@@ -21,7 +21,7 @@
         "wordpress/wordpress": "4.5.*"
     },
     "extra": {
-        "webroot-dir": "wordpress",
+        "webroot-dir": "wp",
         "webroot-package": "wordpress/wordpress"
     }
 }
