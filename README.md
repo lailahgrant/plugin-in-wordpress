@@ -55,3 +55,15 @@ Using [A Webroot Composer Library Installer](https://github.com/fancyguy/webroot
    - If you get an `Database Error`, try creating up the database manually in your `xampp` or `localhost`....
 
 ### Files managed by the composer are put in .gitignore
+
+- Incase you run into the following error 
+![wp-error on login](https://user-images.githubusercontent.com/28113644/147870966-992775e7-5a8a-4a57-b9fd-3b28504ed604.png)
+   - Edit the user.php in \plugin-wordpress\wp\wp-includes\user.php
+   - Changed the following lines from
+   >function wp_signon( $credentials = array(), $secure_cookie = '' ) 
+   >{ ---- }
+   - to:-
+This solved the error and a wordpress login form entry shows up.
+   > function wp_signon() { 
+   > $credentials = array(); $secure_cookie = '' ; 
+   > -------- }
