@@ -67,3 +67,7 @@ This solved the error and a wordpress login form entry shows up.
    > function wp_signon() { 
    > $credentials = array(); $secure_cookie = '' ; 
    > -------- }
+
+### Creating Plugin - Gutenberg Block type that's a form and a table on the frontend UI.
+- @wordpress/scripts and Using Reactjs  
+- In the dashboard, go to plugins, activate 
